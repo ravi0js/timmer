@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://wallpapergod.com/images/hd/hd-2560X1600-wallpaper-kgb9wrcm1wmrfa5m.jpeg');
+    background-size: cover;
+    object-fit: cover;
+}
+.container{
+    background-color: rgb(243, 228, 230);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.display{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: rgb(2, 29, 20);
+}
+.display>div{
+}
+.display>div>input{
+    width: 5rem;
+    margin: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    border: 0px;
+    outline: none;
+}
+.controls{
+    display: flex;
+    padding: 0.3rem;
+    gap: 0.3rem;
+}
+.controls>button{
+    width: 100%;
+    height: 2rem;
+}
+#reset:hover, #start:hover{
+    border: 0px;
+    outline: none;
+    color: white;
+    border-radius: 0.2rem;
+}
+#reset:hover{
+    background-color: gray;
+}
+#start:hover{
+    background-color: green;
+}
+.timmer{
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    position: absolute;
+    top: 20%;
+    font-size: 5rem;
+    left: 30%;
+    border-radius: 1rem;
+    color: white;
+}
+.close_btn{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    padding:0.3rem;
+}
+.pause_btn{
+    width: 12rem;
+    height: 4rem;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    border: 1px lightblue;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
